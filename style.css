@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#up {
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    0deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(234, 178, 205, 1) 16%,
+    rgba(174, 241, 255, 1) 67%
+  );
+  padding: 1.4rem;
+}
+#up img {
+  width: 4rem;
+  height: 5rem;
+}
+#login {
+  position: absolute;
+  right: 3rem;
+  top: 3.2rem;
+  font-family: "Open Sans", sans-serif;
+}
+#login a {
+  text-decoration: none;
+  color: #920101;
+  font-size: 16px;
+  font-weight: 700;
+}
+#login a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+#nav {
+  background-image: linear-gradient(45deg, #fbda61 0%, #ff5acd 100%);
+  padding: 2rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.nav2 a {
+  font-family: "DynaPuff", cursive;
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem;
+}
+.nav2 a:hover {
+  color: white;
+}
+#img {
+  background-image: url(https://practice-cw.netlify.app/img/banner.jpg);
+  height: 533px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#konum {
+  position: absolute;
+  left: 8rem;
+  bottom: 12rem;
+}
+#konum header {
+  font-family: "Open Sans", sans-serif;
+  font-size: 34px;
+  color: white;
+  text-shadow: 1px 2px 1px black;
+}
+#konum p {
+  font-family: "Open Sans", sans-serif;
+  color: red;
+  text-shadow: 0px 2px 4px white;
+  font-weight: 700;
+}
+#konum a {
+  text-decoration: none;
+  color: black;
+  background-color: #d9afd9;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-weight: 700;
+  z-index: 0;
+}
+#konum a:hover {
+  opacity: 0.5;
+}
+#text {
+  padding: 30px;
+  padding-top: 30px;
+}
+#text p {
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
+}
+footer {
+  background-color: #ff0000;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  cursor: pointer;
+}
+footer i {
+    font-size: 30px;
+    color: white;
+}
+footer i:hover{
+    color: black;
+}
+footer:hover{
+    outline: 2px solid red;
+    outline-offset: 2px;
+}
